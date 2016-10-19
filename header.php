@@ -16,5 +16,10 @@
     <header class="site-header">
         <h1><a href="<?php echo home_url(); ?>"><?php bloginfo("name"); ?></a></h1>
         <h5><?php bloginfo("description"); ?></h5>
+
+        <nav class="top-nav">
+            <?php wp_nav_menu(); ?>
+        </nav>
+
     </header>
 
