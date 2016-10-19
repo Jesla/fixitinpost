@@ -6,3 +6,16 @@
     Description: Fix It In Post - Client Walt Mims
     Version: 1.0
 */
+
+p {
+    color: red;
+    font-size: 20px;
+}
+
+div.post {
+    border-bottom: 2px dotted #bbbbbb;
+}
+
+div.post:last-of-type {
+    border-bottom: none;
+}
