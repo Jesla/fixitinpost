@@ -18,7 +18,7 @@
         <h5><?php bloginfo("description"); ?></h5>
 
         <nav class="top-nav">
-            <?php wp_nav_menu(); ?>
+            <?php wp_nav_menu(); ?> <!--this lists all the pages you've created that you want listed in the top nav-->
         </nav>
 
     </header>

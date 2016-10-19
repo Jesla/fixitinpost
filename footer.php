@@ -1,5 +1,8 @@
 <footer class="site-footer">
-    <h2>This is the Footer</h2>
+    <nav class="top-nav">
+        <?php wp_nav_menu(); ?> <!--this lists all the pages you've created that you want listed in the footer-->
+    </nav>
+
     <p><?php bloginfo("name"); ?> - &copy; <?php echo date("Y"); ?></p>
 </footer>
 
